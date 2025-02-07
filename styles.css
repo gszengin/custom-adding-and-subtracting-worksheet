@@ -1,0 +1,211 @@
+body {
+    width: 600px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    align-items: center;
+}
+
+#worksheet-preview svg { 
+    border: 1px solid black; 
+    width: 100%; 
+    height: auto; 
+}
+
+.container-1 {
+    width: 600px;
+    display: flex;
+    flex-direction: column; /* Two rows */
+    gap: 15px;
+    background-color: #F0F8FF;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group-row {
+    display: flex;
+    justify-content: space-between; /* Distribute elements evenly */
+    align-items: center;
+    gap: 15px;
+}
+
+.container-1 input[type="number"] {
+    min-width: 60px;
+    max-width: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.column {
+    flex: auto;
+    display: flex;
+    min-width: 160px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: left;
+}
+
+.column label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center; /* Ensures the radio button and label align vertically */
+    gap: 8px; /* Adds spacing between radio button and label */
+}
+
+
+.container-3 {
+    width: 600px; /* Ensure same width */
+    background-color: #E6F2FF;
+    padding: 20px; /* Increased for consistency */
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* Fix alignment */
+    justify-content: space-between; /* Balance content */
+    gap: 8px;
+    text-align: left;
+}
+
+.container-3 input[type="number"]{
+    min-width: 60px;
+    max-width: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container-4 {
+    width: 600px;
+    background-color: #E1F7D5;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container-5 {
+    width: 600px;
+    background-color: #FFD1DC;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-6 {
+    width: 600px;
+    background-color: #DCDCDC;
+    padding: 10px;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.form-group label, .form-group input, .form-group select {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+#title {
+    flex-grow: 2;
+    align-items: center;
+    min-width: 250px;
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+#titleColor {
+    width: 50px;
+    height: 30px;
+    padding: 0;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping, ensuring all buttons stay on one line */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto; /* Adds horizontal scrolling if buttons overflow */
+}
+
+
+#puzzleSVG {
+    display: block; /* Removes extra spacing */
+    margin: 0 auto; /* Centers it */
+    max-width: 100%; /* Ensures it does not overflow */
+    height: auto; /* Allows it to scale properly */
+}
